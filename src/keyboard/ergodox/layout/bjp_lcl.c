@@ -82,17 +82,17 @@ KB_MATRIX_LAYER(
 	0,	
 	// left hand
 	0,	1,	2,	3,	4,	0,	0,	
-	0,	0,	0,	0,	KEY_9_LeftParenthesis,	KEY_0_RightParenthesis,	0,	
-	0,	KEY_Backslash_Pipe,	KEY_1_Exclamation,	KEY_GraveAccent_Tilde,	KEY_LeftBracket_LeftBrace,	KEY_RightBracket_RightBrace,	
-	0,	0,	0,	0,	KEY_LeftBracket_LeftBrace,	KEY_RightBracket_RightBrace,	0,	
+	0,	0,	KEY_GraveAccent_Tilde,	KEY_9_LeftParenthesis,	KEY_0_RightParenthesis,	0,	0,	
+	0,	KEY_Backslash_Pipe,	KEY_1_Exclamation,	KEY_LeftBracket_LeftBrace,	KEY_RightBracket_RightBrace,	0,	
+	0,	0,	0,	KEY_LeftBracket_LeftBrace,	KEY_RightBracket_RightBrace,	0,	0,	
 	0,	0,	0,	0,	0,	
 	0,	0,	
 	0,	0,	0,	
-	0,	0,	0,	
+	KEY_DeleteForward,	0,	0,	
 	// right hand
 	0,	0,	0,	0,	0,	KEY_Equal_Plus,	0,	
 	0,	0,	0,	0,	0,	0,	KEY_Backslash_Pipe,	
-	KEY_Equal_Plus,	KEY_Equal_Plus,	KEY_Dash_Underscore,	KEY_8_Asterisk,	KEY_Backslash_Pipe,	0,	
+	KEY_Dash_Underscore,	KEY_Equal_Plus,	KEY_Equal_Plus,	KEY_8_Asterisk,	KEY_Backslash_Pipe,	0,	
 	0,	0,	0,	0,	0,	0,	0,	
 	0,	0,	0,	0,	0,	
 	0,	0,	
@@ -247,7 +247,7 @@ KB_MATRIX_LAYER(
 	// unused
 	NULL,	
 	// left hand
-	ktrans,	ktrans,	ktrans,	ktrans,	ktrans,	ktrans,	ktrans,	
+	ktrans,	dbtldr,	ktrans,	ktrans,	ktrans,	ktrans,	ktrans,	
 	ktrans,	ktrans,	ktrans,	ktrans,	ktrans,	ktrans,	ktrans,	
 	ktrans,	ktrans,	ktrans,	ktrans,	ktrans,	ktrans,	
 	ktrans,	ktrans,	ktrans,	ktrans,	ktrans,	ktrans,	ktrans,	
@@ -256,7 +256,7 @@ KB_MATRIX_LAYER(
 	NULL,	NULL,	ktrans,	
 	kprrel,	ktrans,	ktrans,	
 	// right hand
-	ktrans,	ktrans,	kprrel,	kprrel,	kprrel,	kprrel,	dbtldr,	
+	ktrans,	ktrans,	kprrel,	kprrel,	kprrel,	kprrel,	ktrans,	
 	ktrans,	ktrans,	kprrel,	kprrel,	kprrel,	kprrel,	ktrans,	
 	ktrans,	kprrel,	kprrel,	kprrel,	kprrel,	ktrans,	
 	ktrans,	ktrans,	kprrel,	kprrel,	kprrel,	kprrel,	ktrans,	

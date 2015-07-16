@@ -26,6 +26,10 @@ def command_line(args):
             num_commas = len(split_line) - 1
             print('%2d | %s' % (num_commas, line.rstrip()))
 
+# TODO: it would be nice if it checked for the familiar pattern in the number
+# of commas and only reported blocks that are wrong. I'd have to track
+# the number, compare it against what's right and so on.
+
 if __name__ == '__main__':
     ARGS = docopt(__doc__, version='prninfo 1.0')
     command_line(ARGS)
